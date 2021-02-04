@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ChamaController {
 	 @Autowired
 	 private MemberService memberService;
+	 
 	 @GetMapping("/members")
 	    ResponseEntity<List<Members>> getAllToDos() {
 	        return new ResponseEntity<>(memberService.findAll(), HttpStatus.OK);

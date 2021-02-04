@@ -27,7 +27,7 @@ class ChamaApplicationTests {
     @MockBean
     private MemberService memberService;
     @Test
-    void getAllMembers() throws Exception {
+    void addAllMembers() throws Exception {
     	
     	 List<Members> memberList = new ArrayList<Members>();
     	 memberList.add(new Members(1L,"Adam"));

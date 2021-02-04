@@ -13,6 +13,10 @@ public class MemberService {
 	        this.memberRepository = memberRepository;
 	    }
 	public List<Members> findAll() {
-	    return new ArrayList<>();
+	    return memberRepository.findAll();
 	}
+	
+	 public Members save(Members members) {
+	        return memberRepository.save(members);
+	    }
 }

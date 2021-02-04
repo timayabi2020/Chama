@@ -10,6 +10,9 @@ public class Members {
     @GeneratedValue
 	private long id;
 	private String name;
+    public Members(){
+
+    }
 	public Members(long id, String name) {
 
         this.id = id;
