@@ -1,0 +1,44 @@
+2021-02-05 01:47:33,916 INFO com.chama.ChamaApplication [main] Starting ChamaApplication using Java 1.8.0_201 on ICT01B198 with PID 29972 (D:\SpringWorkSpace\Chama\bin\main started by Timothy.Wamalwa in D:\SpringWorkSpace\Chama)
+2021-02-05 01:47:33,924 INFO com.chama.ChamaApplication [main] No active profile set, falling back to default profiles: default
+2021-02-05 01:47:36,724 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-02-05 01:47:36,724 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 01:47:36,870 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-02-05 01:47:37,236 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 01:47:37,364 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-05 01:47:37,738 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 01:47:38,012 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-02-05 01:47:38,354 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-02-05 01:47:38,387 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-05 01:47:39,884 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 01:47:41,515 INFO com.chama.ChamaApplication [main] Started ChamaApplication in 8.938 seconds (JVM running for 11.81)
+2021-02-05 01:48:11,656 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 01:48:12,071 INFO com.chama.ChamaController [http-nio-8082-exec-2] Invoking ledger method
+2021-02-05 01:49:30,956 INFO com.chama.ChamaController [http-nio-8082-exec-5] Invoking get users method 
+2021-02-05 01:51:12,798 INFO com.chama.ChamaController [http-nio-8082-exec-7] Invoking add users method 
+2021-02-05 01:53:13,614 INFO com.chama.ChamaController [http-nio-8082-exec-1] Invoking borrowing method
+2021-02-05 01:53:19,019 INFO com.chama.ChamaController [http-nio-8082-exec-2] Invoking borrowing method
+2021-02-05 01:53:20,486 INFO com.chama.ChamaController [http-nio-8082-exec-3] Invoking borrowing method
+2021-02-05 01:54:30,820 INFO com.chama.ChamaController [http-nio-8082-exec-6] Invoking ledger method
+2021-02-05 01:57:59,500 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-02-05 01:57:59,515 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-02-05 02:08:50,005 INFO com.chama.ChamaApplication [main] Starting ChamaApplication using Java 1.8.0_201 on ICT01B198 with PID 15332 (D:\SpringWorkSpace\Chama\bin\main started by Timothy.Wamalwa in D:\SpringWorkSpace\Chama)
+2021-02-05 02:08:50,026 INFO com.chama.ChamaApplication [main] No active profile set, falling back to default profiles: default
+2021-02-05 02:08:53,621 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-02-05 02:08:53,621 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 02:08:53,752 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-02-05 02:08:54,094 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 02:08:54,238 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-05 02:08:54,598 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 02:08:54,878 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-02-05 02:08:55,208 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-02-05 02:08:55,242 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-05 02:08:56,730 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 02:08:58,296 INFO com.chama.ChamaApplication [main] Started ChamaApplication in 10.017 seconds (JVM running for 12.879)
+2021-02-05 02:09:25,539 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 02:09:25,821 INFO com.chama.ChamaController [http-nio-8082-exec-2] Invoking add users method 
+2021-02-05 02:09:51,735 INFO com.chama.ChamaController [http-nio-8082-exec-4] Invoking borrowing method
+2021-02-05 02:09:55,485 INFO com.chama.ChamaController [http-nio-8082-exec-3] Invoking borrowing method
+2021-02-05 02:10:09,468 INFO com.chama.ChamaController [http-nio-8082-exec-5] Invoking ledger method
+2021-02-05 02:11:25,677 INFO com.chama.ChamaController [http-nio-8082-exec-8] Invoking ledger method
+2021-02-05 02:13:12,692 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-02-05 02:13:12,701 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
