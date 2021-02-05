@@ -42,3 +42,65 @@
 2021-02-05 02:11:25,677 INFO com.chama.ChamaController [http-nio-8082-exec-8] Invoking ledger method
 2021-02-05 02:13:12,692 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
 2021-02-05 02:13:12,701 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-02-05 02:15:39,889 INFO com.chama.ChamaApplication [main] Starting ChamaApplication using Java 1.8.0_201 on ICT01B198 with PID 13196 (D:\SpringWorkSpace\Chama\build\classes\java\main started by Timothy.Wamalwa in D:\SpringWorkSpace\Chama)
+2021-02-05 02:15:39,901 INFO com.chama.ChamaApplication [main] No active profile set, falling back to default profiles: default
+2021-02-05 02:15:43,220 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-02-05 02:15:43,221 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 02:15:43,356 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-02-05 02:15:43,727 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 02:15:43,839 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-05 02:15:44,176 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 02:15:44,474 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-02-05 02:15:44,794 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-02-05 02:15:44,834 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-05 02:15:46,417 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 02:15:47,978 INFO com.chama.ChamaApplication [main] Started ChamaApplication in 9.202 seconds (JVM running for 10.198)
+2021-02-05 02:16:13,422 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 02:16:13,524 INFO com.chama.ChamaController [http-nio-8082-exec-1] Invoking get users method 
+2021-02-05 02:18:16,187 INFO com.chama.ChamaApplicationTests [main] Starting ChamaApplicationTests using Java 1.8.0_201 on ICT01B198 with PID 888 (started by Timothy.Wamalwa in D:\SpringWorkSpace\Chama)
+2021-02-05 02:18:16,195 INFO com.chama.ChamaApplicationTests [main] No active profile set, falling back to default profiles: default
+2021-02-05 02:18:20,734 INFO com.chama.ChamaApplicationTests [main] Started ChamaApplicationTests in 5.761 seconds (JVM running for 9.724)
+2021-02-05 02:18:21,149 INFO com.chama.ChamaController [main] Invoking get users method 
+2021-02-05 02:18:21,667 INFO com.chama.ChamaController [main] Invoking add users method 
+2021-02-05 02:18:21,768 INFO com.chama.ChamaController [main] Invoking borrowing method
+2021-02-05 02:18:21,783 INFO com.chama.ChamaController [main] Invoking ledger method
+2021-02-05 07:50:32,627 INFO com.chama.ChamaApplication [main] Starting ChamaApplication using Java 1.8.0_201 on ICT01B198 with PID 12608 (D:\SpringWorkSpace\Chama\bin\main started by Timothy.Wamalwa in D:\SpringWorkSpace\Chama)
+2021-02-05 07:50:32,644 INFO com.chama.ChamaApplication [main] No active profile set, falling back to default profiles: default
+2021-02-05 07:50:35,576 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-02-05 07:50:35,576 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 07:50:35,724 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-02-05 07:50:36,148 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 07:50:36,268 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-05 07:50:36,634 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 07:50:36,927 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-02-05 07:50:37,412 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-02-05 07:50:37,451 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-05 07:50:39,067 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 07:50:40,487 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 07:50:41,206 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-05 07:50:41,246 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-05 07:50:41,361 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-05 07:50:41,715 INFO com.chama.ChamaApplication [main] Started ChamaApplication in 10.886 seconds (JVM running for 13.82)
+2021-02-05 07:51:07,688 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 07:53:31,290 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-02-05 07:53:31,306 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-02-05 07:53:50,252 INFO com.chama.ChamaApplication [main] Starting ChamaApplication using Java 1.8.0_201 on ICT01B198 with PID 26072 (D:\SpringWorkSpace\Chama\bin\main started by Timothy.Wamalwa in D:\SpringWorkSpace\Chama)
+2021-02-05 07:53:50,262 INFO com.chama.ChamaApplication [main] No active profile set, falling back to default profiles: default
+2021-02-05 07:53:53,116 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2021-02-05 07:53:53,117 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-05 07:53:53,294 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2021-02-05 07:53:53,641 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-05 07:53:53,760 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-02-05 07:53:54,108 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-05 07:53:54,388 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-02-05 07:53:54,772 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-02-05 07:53:54,807 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-02-05 07:53:56,290 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-05 07:53:57,661 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-05 07:53:58,352 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-05 07:53:58,395 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-05 07:53:58,485 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-05 07:53:58,882 INFO com.chama.ChamaApplication [main] Started ChamaApplication in 10.006 seconds (JVM running for 12.879)
+2021-02-05 07:54:21,100 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8082-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-05 07:54:45,144 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-02-05 07:54:45,160 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown completed.

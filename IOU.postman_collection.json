@@ -11,12 +11,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:8082/users",
+					"raw": "localhost:8082/api/users",
 					"host": [
 						"localhost"
 					],
 					"port": "8082",
 					"path": [
+						"api",
 						"users"
 					]
 				}
@@ -38,12 +39,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8082/add",
+					"raw": "localhost:8082/api/add",
 					"host": [
 						"localhost"
 					],
 					"port": "8082",
 					"path": [
+						"api",
 						"add"
 					]
 				}
@@ -65,12 +67,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8082/borrow",
+					"raw": "localhost:8082/api/borrow",
 					"host": [
 						"localhost"
 					],
 					"port": "8082",
 					"path": [
+						"api",
 						"borrow"
 					]
 				}
@@ -92,12 +95,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8082/user_ledger_details",
+					"raw": "localhost:8082/api/user_ledger_details",
 					"host": [
 						"localhost"
 					],
 					"port": "8082",
 					"path": [
+						"api",
 						"user_ledger_details"
 					]
 				}
@@ -111,7 +115,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"email\":\"mbape@gmail.com\"}",
+					"raw": "{\"email\":\"bob@gmail.com\"}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -119,12 +123,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:8082/delete",
+					"raw": "localhost:8082/api/delete",
 					"host": [
 						"localhost"
 					],
 					"port": "8082",
 					"path": [
+						"api",
 						"delete"
 					]
 				}

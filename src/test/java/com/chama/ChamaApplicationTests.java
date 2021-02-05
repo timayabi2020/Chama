@@ -35,7 +35,7 @@ class ChamaApplicationTests {
 		List<Members> memberList = new ArrayList<Members>();
 		when(memberService.findAll()).thenReturn(memberList);
 
-		MvcResult result = mockMvc.perform(MockMvcRequestBuilders.get("/users").accept(MediaType.APPLICATION_JSON))
+		MvcResult result = mockMvc.perform(MockMvcRequestBuilders.get("/api/users").accept(MediaType.APPLICATION_JSON))
 				.andReturn();
 
 		int httpStatus = result.getResponse().getStatus();
@@ -52,7 +52,7 @@ class ChamaApplicationTests {
 	void addMembers() throws Exception {
 
 		MvcResult result = mockMvc.perform(
-				MockMvcRequestBuilders.post("/add").content("{\"email\":\"chuck@gmail.com\",\"user\":\"Chuck\"}")
+				MockMvcRequestBuilders.post("/api/add").content("{\"email\":\"chuck@gmail.com\",\"user\":\"Chuck\"}")
 						.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON))
 				.andReturn();
 		int httpStatus = result.getResponse().getStatus();
@@ -67,7 +67,7 @@ class ChamaApplicationTests {
 	@Test
 	void borrow() throws Exception {
 
-		MvcResult result = mockMvc.perform(MockMvcRequestBuilders.post("/borrow")
+		MvcResult result = mockMvc.perform(MockMvcRequestBuilders.post("/api/borrow")
 				.content("{\"lender\":\"chuck@gmail.com\",\"borrower\":\"timwamalwa@gmail.com\",\"amount\":\"10.0\"}")
 				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)).andReturn();
 		int httpStatus = result.getResponse().getStatus();
@@ -83,7 +83,7 @@ class ChamaApplicationTests {
 	void getLedger() throws Exception {
 
 		MvcResult result = mockMvc
-				.perform(MockMvcRequestBuilders.post("/user_ledger_details").content("{\"email\":\"chuck@gmail.com\"}")
+				.perform(MockMvcRequestBuilders.post("/api/user_ledger_details").content("{\"email\":\"chuck@gmail.com\"}")
 						.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON))
 				.andReturn();
 		int httpStatus = result.getResponse().getStatus();
@@ -99,7 +99,7 @@ class ChamaApplicationTests {
 	void deleteUser() throws Exception {
 
 		MvcResult result = mockMvc
-				.perform(MockMvcRequestBuilders.post("/delete").content("{\"email\":\"chuck@gmail.com\"}")
+				.perform(MockMvcRequestBuilders.post("/api/delete").content("{\"email\":\"chuck@gmail.com\"}")
 						.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON))
 				.andReturn();
 		int httpStatus = result.getResponse().getStatus();
